@@ -3,12 +3,10 @@ body {
 
 }
 
-header {
-
+.top  {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    margin: 0 20%;
     color: white;
     border-radius: 1rem;
 }
@@ -21,7 +19,6 @@ h3{
 ol {
     display: flex;
 }
-
 
 .types li {
     border-radius: 1rem;
@@ -49,14 +46,29 @@ ol {
     padding-bottom: 1rem;
 }
 
-.info  {
+.info1  {
     display: grid;
+    grid-template-columns: 1fr;
+}
+
+.info2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.info3  {
+    padding: 0 .8rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.boxlist li {
+    padding: 0.8rem ;
 }
 
 
-.info li {
-    padding: 0.8rem 0;
-}
+
 
 .options  {
     color: white;
@@ -64,9 +76,48 @@ ol {
 }
 
 
-@media screen and (min-width: 992px) {
+
+
+
+.barra {
+
+    margin: 0 30rem 0 2rem;
+    width: 80%;
+    height: .25rem;
+    border-radius: 1rem;
+    background-color: #CCC;
+}
+
+.barra div {
+    height: 100%;
+    border-radius: 1rem;
+    background-color: red;
+    width: 50%;
+}
+
+
+@media screen and (min-width: 380px) {
     .content {
-        margin: -3rem auto 1rem auto;
-        padding-top: 3rem;
+        margin: 1rem auto;
+        margin-top: -2.3rem;
+        padding-top: 3rem; 
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 280px) {
+    .top {
+        margin: 1rem 5% 0 5%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .top {
+        margin: 1rem 5% 0 5%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .top {
+        margin: 1rem 15% 0 15%;
     }
 }
