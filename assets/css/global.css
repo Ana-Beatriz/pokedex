@@ -2,20 +2,25 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
 body{
-    background-color: #F6F8FC;
+    background-color: #e2e7f0;
 }
 
 .content{
+    width: 100vw;
+    height: 100vh;
     padding: 1rem;
     background-color: #FFF;
-    height: 100vh;
+    
 }
 
 @media screen and (min-width: 992px) {
     .content{
         max-width: 992px;
-        margin: 0 auto;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
     }
 }
 

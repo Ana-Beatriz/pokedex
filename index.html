@@ -26,94 +26,21 @@
             <h1>Pokedex</h1>
         </header>
         <article>
-            <ol class="pokemons">
-                <li class="grass">
-                    <span class="number">#001</span>
-                    <span class="name">Bulbasaur</span>
-
-                    <section class="detail">
-                        <ol class="types">
-                            <li>grass</li>
-                            <li>poison</li>
-                        </ol>
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
-                            alt="Bulbasaur">
-                    </section>
-                </li>
-
-                <li class="grass">
-                    <span class="number">#002</span>
-                    <span class="name">Ivysaur</span>
-
-                    <section class="detail">
-                        <ol class="types">
-                            <li>grass</li>
-                            <li>poison</li>
-                        </ol>
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
-                            alt="Ivysaur">
-                    </section>
-                </li>
-                <li class="grass">
-                    <span class="number">#003</span>
-                    <span class="name">Vanusaur</span>
-
-                    <section class="detail">
-                        <ol class="types">
-                            <li>grass</li>
-                            <li>poison</li>
-                        </ol>
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
-                            alt="Vanusaur">
-                    </section>
-                </li>
-                <li class="fire">
-                    <span class="number">#004</span>
-                    <span class="name">Charmander</span>
-
-                    <section class="detail">
-                        <ol class="types">
-                            <li>fire</li>
-                            <li style="opacity: 0;">ggggg</li>
-                        </ol>
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
-                            alt="Charmander">
-                    </section>
-                </li>
-                <li class="fire">
-                    <span class="number">#005</span>
-                    <span class="name">Charmeleon</span>
-
-                    <section class="detail">
-                        <ol class="types">
-                            <li>fire</li>
-                            <li style="opacity: 0;">ggggg</li>
-                        </ol>
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
-                            alt="Charmeleon">
-                    </section>
-                </li>
-                <li class="fire">
-                    <span class="number">#006</span>
-                    <span class="name">Charizard</span>
-
-                    <section class="detail">
-                        <ol class="types">
-                            <li>fire</li>
-                            <li style="opacity: 0;">ggggg</li>
-                        </ol>
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
-                            alt="Charizard" >
-                    </section>
-
-                </li>
+            <ol id="pokemonList" class="pokemons">
+                <!-- POKEMONS LIST API -->
             </ol>
+            <section class="pagination">
+                <button type="button" id="btnPoke">+</button>
+            </section>
+            
         </article>
     </section>
 
 
 
     <!-- link javascript -->
+    <script src="assets/js/pokemon-model.js"></script>
+    <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
