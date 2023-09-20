@@ -1,0 +1,65 @@
+body {
+    background-color: #77C850;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+h3{
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+ol {
+    display: flex;
+}
+
+
+.types li {
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.number {
+    font-size: 1.2rem;
+    margin-top: -50px;
+    margin-bottom: 0.67em;
+    color: white;
+}
+
+.pokeimg {
+    max-height: 100%;
+    width: 200px;
+    align-self: center;
+
+}
+
+.menu {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.info  {
+    display: grid;
+}
+
+
+.info li {
+    padding: 0.8rem 0;
+}
+
+
+@media screen and (min-width: 992px) {
+    .content {
+        margin: -3rem auto 1rem auto;
+        padding-top: 3rem;
+    }
+}
